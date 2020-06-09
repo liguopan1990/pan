@@ -34,7 +34,7 @@ export default {
         loadMore() {
             this.loading = true;
             let temp = "./static/img/mn_"
-            if(flag <= 60){
+            if(this.flag <= 60){
                 for (let i = 1; i <= 8; i++) {
                     this.list.push(temp + this.flag + '.jpg')
                     this.flag++
