@@ -1,7 +1,7 @@
 <template>
     <div>
         <router-view/>
-        <mt-tabbar v-model="selected">
+        <mt-tabbar v-model="selected" :fixed="true">
             <mt-tab-item id="外卖">
                 <mt-button type="danger" size="large" @click.native="handleClick(1)">外卖</mt-button>
                 
