@@ -14,12 +14,12 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/test',
       name: 'login',
       component: login
     },
     {
-      path: '/tab',
+      path: '/',
       name: 'tab',
       component: tab,
       redirect: {name: 'c1'},
